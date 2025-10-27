@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theyagarajan Mudaliyar | Portfolio</title>
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://rajan03-rk.github.io/portfolio/">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Theyagarajan Mudaliyar — BSc IT student and aspiring full-stack developer. Explore my Java and web development projects, skills, and resume.">
+  <meta name="keywords" content="Theyagarajan Mudaliyar, Portfolio, BSc IT, Java, Web Developer, Projects, Resume, SIES College, Mumbai">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Theyagarajan Mudaliyar | Portfolio">
+  <meta property="og:description" content="Explore my Java, web development projects, and resume. BSc IT student from SIES College.">
+  <meta property="og:image" content="https://rajan03-rk.github.io/portfolio/images/Rajan.jpeg">
+  <meta property="og:url" content="https://rajan03-rk.github.io/portfolio/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Theyagarajan Mudaliyar | Portfolio">
+  <meta name="twitter:description" content="BSc IT student showcasing Java and web projects. Download my resume and visit my GitHub.">
+  <meta name="twitter:image" content="https://rajan03-rk.github.io/portfolio/images/Rajan.jpeg">
+
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Schema (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Theyagarajan Mudaliyar",
+    "url": "https://rajan03-rk.github.io/portfolio/",
+    "image": "https://rajan03-rk.github.io/portfolio/images/Rajan.jpeg",
+    "jobTitle": "BSc IT Student",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "SIES College, Mumbai"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/theyagarajan-mudaliar-007112218",
+      "https://github.com/Rajan03-rk"
+    ]
+  }
+  </script>
+
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: rgba(0, 0, 0, 0.5);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #00c6ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00c6ff;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 100px 60px;
+      text-align: left;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero-text h2 span {
+      color: #00c6ff;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00c6ff;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0072ff;
+    }
+
+    .hero img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00c6ff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 60px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00c6ff;
+    }
+
+    .skills, .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(0, 198, 255, 0.2);
+    }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #00c6ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Theyagarajan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Hi, I'm <span>Theyagarajan Mudaliyar</span></h2>
+      <p>A passionate <b>BSc IT student</b> aspiring to grow in software development.  
+         Skilled in coding, problem solving, and eager to explore new technologies.</p>
+      <a href="Theyagarajan-Murugeshan-Resume.pdf" download class="btn">📄 Download Resume</a>
+    </div>
+    <img src="images/Rajan.jpeg" alt="Theyagarajan Mudaliyar profile photo">
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently pursuing Third Year <b>BSc IT</b> at SIES College, Mumbai.  
+       I have completed academic projects in Java and I am exploring web development & software engineering.  
+       My goal is to gain expertise in full-stack development and contribute to impactful projects.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Java</div>
+      <div class="card">HTML, CSS, JavaScript</div>
+      <div class="card">MySQL / DBMS</div>
+      <div class="card">MS Office & Excel</div>
+      <div class="card">Communication & Teamwork</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Java Project</h3>
+        <p>A Java-based application built during my course, demonstrating coding, problem-solving, and software design skills.</p>
+        <a href="https://github.com/Rajan03-rk/Bank-Management-System.git" target="_blank" class="btn">🔗 View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:theyagarajanmudaliyar@gmail.com">theyagarajanmudaliyar@gmail.com</a></p>
+    <p>📞 Phone: +91 88794 19163</p>
+    <p>
+      <a href="https://www.linkedin.com/in/theyagarajan-mudaliar-007112218" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Rajan03-rk" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Theyagarajan Mudaliyar | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
